@@ -1,0 +1,74 @@
+body {
+/*    background: url('/images/stars.png') top left no-repeat;*/
+    background: #343640 top left no-repeat;
+    background-size: cover;
+/*    display: table;*/
+}
+
+ .navbar.transparent.navbar-inverse .navbar-inner {
+   background: rgba(0,0,0,0.4);
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+#welcome {
+    padding-top: 100px;
+}
+
+.cover-text {
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Georgia, Times, serif;
+}
+
+/*
+@font-face{
+    font-family:StratumB;
+    src:url("font/Stranum_bold.woff");
+}
+*/
+@font-face{
+font-family: 'stratumno1bold';
+    src: url('/fonts/stratumno1bold-webfont.woff2') format('woff2'),
+         url('/fonts/stratumno1bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#page-title {
+    padding-top: 20px;
+    font-family: 'stratumno1bold';
+    letter-spacing: 4px;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+a {
+  color: hotpink;
+}
+
+.modal-backdrop {
+    visibility: hidden !important;
+}
+.modal.in {
+    background-color: rgba(0,0,0,0.5);
+}
